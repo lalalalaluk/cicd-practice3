@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/health")
 def health():
-    data = dict(status="health")
+    data = dict(status="healthy")
     return jsonify(data)
 
 if __name__ == "__main__":
