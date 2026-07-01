@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
       - run: pip install -r requirements.txt
-      - run: pytest test_app.py -v
+      - run: python -m pytest test_app.py -v
 
   docker:
     runs-on: ubuntu-latest

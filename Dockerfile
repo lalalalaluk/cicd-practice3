@@ -9,6 +9,5 @@ RUN pip install -r requirements.txt
 COPY . .
  
 EXPOSE 5000
-# CMD ["python", "app.py"]
-ENTRYPOINT ["ping"]
-CMD ["google.com"]
+CMD ["python", "app.py"]
+
